@@ -1,0 +1,127 @@
+//
+//  JDQRCodeHeader.pch
+//  JDQRCode
+//
+//  Created by 李伟杰 on 2018/12/5.
+//  Copyright © 2018 jd. All rights reserved.
+//
+
+#ifndef JDQRCodeHeader_pch
+#define JDQRCodeHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "YYCategories.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "NSString+LWTool.h"
+#import "JMGenerateQRCodeUtils.h"
+#import "UserUtil.h"
+#import "MBProgressHUD+Extension.h"
+
+#endif /* JDQRCodeHeader_pch */
+
+// 自定义Logb
+#ifdef DEBUG
+#define debug_NSLog(...)       NSLog(__VA_ARGS__)
+#else
+#define debug_NSLog(...)
+#endif
+
+#define Empty_Image            @"icon_empty_img"
+/**
+ 色值
+ */
+#define COLOR_RGB(r, g, b)           [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define COLOR_RGBA(r, g, b, a)       [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define COLOR_BG                     UIColorHex(f5f5f5)
+
+#define COLOR_RED_TXT                UIColorHex(ff5345)
+#define COLOR_RED_LIGHT_TXT          UIColorHex(ff756a)
+#define COLOR_PINK                   UIColorHex(ffe0dd)
+
+#define COLOR_GRAY_TXT               COLOR_RGB(102, 102, 102)
+#define COLOR_GRAY_LIGHT_TXT         COLOR_RGB(153, 153, 153)
+#define COLOR_GRAY_REDBage           COLOR_RGB(187, 187, 187)
+
+#define COLOR_BLACK_TXT              COLOR_RGB(68, 68, 68)
+#define COLOR_BLACK_LIGHT_TXT        COLOR_RGB(85, 85, 85)
+
+#define COLOR_PURPLE                 UIColorHex(bb58f7)
+
+#define COLOR_BTN                    COLOR_RGB(96, 96, 96)
+
+#define COLOR_GREEN                  UIColorHex(3bcd13)
+#define COLOR_GREEN_TXT                COLOR_RGB(31, 185, 34)
+
+#define COLOR_BLUE                   UIColorHex(aca1fe)
+
+//获取文本高度
+#define   kTextSize(str, width, font)  [str boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]} context:nil].size
+/**
+ 适配屏幕
+ */
+// main screen's scale
+#ifndef kScreenScale
+#define kScreenScale   YYScreenScale()
+#endif
+
+// main screen's size  (portrait)
+#ifndef kScreenSize
+#define kScreenSize    YYScreenSize()
+#endif
+
+// main screen's width (portrait)
+#ifndef kScreenWidth
+#define kScreenWidth   YYScreenSize().width
+#endif
+
+// main screen's height (portrait)
+#ifndef kScreenHeight
+#define kScreenHeight   YYScreenSize().height
+#endif
+
+#define IS_IPHONE4           (([[UIScreen mainScreen] bounds].size.height-480)?NO:YES)
+#define IS_IPHONE5           (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)
+#define IS_IPHONE6           (([[UIScreen mainScreen] bounds].size.height-667)?NO:YES)
+#define IS_IPHONE6_plus      (([[UIScreen mainScreen] bounds].size.height-736)?NO:YES)
+//#define IS_IPHONEX           (([[UIScreen mainScreen] bounds].size.height-812)?NO:YES)
+#define IS_OS_5_OR_LATER     ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
+#define IS_OS_6_OR_LATER     ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+
+#define IS_OS_7_OR_LATER     ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IS_OS_8_OR_LATER     ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+//#define IS_OS_9_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+#define IS_OS_11_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
+#define IS_OS_11_OR_OLDER    ([[[UIDevice currentDevice] systemVersion] floatValue] < 11.0)
+
+//#define IS_iPhoneX         ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)//适配iphoneX
+
+#define IS_iPhoneX_OR_OLDER  ([[UIApplication sharedApplication] statusBarFrame].size.height>20.f?YES:NO)//适配iphoneX及以后所有刘海屏
+
+// status bar 高度.
+#define   kStatusBarHeight                  (IS_iPhoneX_OR_OLDER ? 44.f : 20.f)
+
+// Navigation bar 高度.
+
+#define   kNavigationBarHeight              44.f
+
+// Tabbar 高度.
+
+#define   kTabbarHeight                     (IS_iPhoneX_OR_OLDER ? (49.f + 34.f) : 49.f)
+
+// Tabbar safe bottom margin.
+
+#define   kTabbarSafeBottomMargin           (IS_iPhoneX_OR_OLDER ? 34.f : 0.f)
+
+// Status bar & navigation bar height.
+
+#define   kStatusBarAndNavigationBarHeight  (IS_iPhoneX_OR_OLDER ? 88.f : 64.f)
+
+#define kDeviceWidth     [UserUtil deviceWidth] //设配宽 [[UIScreen mainScreen]bounds].size.width
+#define kDeviceHeight    [UserUtil deviceHeight] //设备高 [[UIScreen mainScreen]bounds].size.height
+
+//用户数据相关
+#define kUserDataPath                                  @"UserData"          //用户数据

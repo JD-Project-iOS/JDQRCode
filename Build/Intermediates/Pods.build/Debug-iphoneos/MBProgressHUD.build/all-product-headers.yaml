@@ -1,0 +1,506 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IQBarButtonItem.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager-Swift.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Headers/IQKeyboardManager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager-umbrella.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/Target Support Files/IQKeyboardManager/IQKeyboardManager-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManager.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQKeyboardManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerConstants.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/Constants/IQKeyboardManagerConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardReturnKeyHandler.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQKeyboardReturnKeyHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQPreviousNextView.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQPreviousNextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQTextView.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQTextView/IQTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQTitleBarButtonItem.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQToolbar.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIScrollView+Additions.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIScrollView+Additions.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUITextFieldView+Additions.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIView+Hierarchy.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIView+Hierarchy.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIView+IQKeyboardToolbar.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQUIViewController+Additions.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/IQKeyboardManager/IQKeyboardManager/Categories/IQUIViewController+Additions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/IQKeyboardManager/IQKeyboardManager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Intermediates/Pods.build/Debug-iphoneos/IQKeyboardManager.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-Swift.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD-umbrella.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MBProgressHUD.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/MBProgressHUD/MBProgressHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/MBProgressHUD/MBProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Intermediates/Pods.build/Debug-iphoneos/MBProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/Pods_JDQRCode.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-JDQRCode-umbrella.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_JDQRCode-Swift.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/Pods_JDQRCode.framework/Headers/Pods_JDQRCode-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/Pods_JDQRCode.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JDQRCode.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSButton+WebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/NSButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+ImageContentType.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSImage+WebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/NSImage+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDAnimatedImageRep.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDAnimatedImageRep.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDImageCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDImageCacheConfig.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-Swift.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Headers/SDWebImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImage-umbrella.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCoder.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCoderHelper.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCodersManager.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageCompat.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloader.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageDownloaderOperation.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageFrame.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageFrame.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageGIFCoder.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageImageIOCoder.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageManager.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageOperation.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImagePrefetcher.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDWebImageTransition.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/SDWebImageTransition.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+WebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+ForceDecode.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+GIF.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIImage+GIF.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+MultiFormat.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+HighlightedWebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+WebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCache.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIView+WebCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+WebCacheOperation.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/SDWebImage/SDWebImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Intermediates/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/YYCategories/YYCategories.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CALayer+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Quartz/CALayer+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSArray+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSBundle+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSData+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDate+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSDate+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSDictionary+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSKeyedUnarchiver+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSKeyedUnarchiver+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSNotificationCenter+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSNotificationCenter+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSNumber+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSNumber+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+YYAddForARC.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForARC.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+YYAddForKVO.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSObject+YYAddForKVO.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSString+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSThread+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSThread+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSTimer+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Foundation/NSTimer+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIApplication+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIApplication+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIBarButtonItem+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIBarButtonItem+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIBezierPath+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIBezierPath+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIColor+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIControl+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIControl+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIDevice+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIFont+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIFont+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIGestureRecognizer+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIGestureRecognizer+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIImage+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScreen+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIScreen+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIScrollView+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIScrollView+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITableView+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UITableView+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UITextField+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UITextField+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+YYAdd.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/UIKit/UIView+YYAdd.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCGUtilities.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/Quartz/YYCGUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCategories-Swift.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/YYCategories/YYCategories.framework/Headers/YYCategories-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCategories-umbrella.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/Target Support Files/YYCategories/YYCategories-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCategories.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/YYCategories.h"
+        },
+        {
+          'type': 'file',
+          'name': "YYCategoriesMacro.h",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Pods/YYCategories/YYCategories/YYCategoriesMacro.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/liweijie/Desktop/JDQRCode/Build/Products/Debug-iphoneos/YYCategories/YYCategories.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/liweijie/Desktop/JDQRCode/Build/Intermediates/Pods.build/Debug-iphoneos/YYCategories.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

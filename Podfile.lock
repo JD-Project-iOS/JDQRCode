@@ -1,0 +1,32 @@
+PODS:
+  - IQKeyboardManager (6.1.1)
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - IQKeyboardManager (= 6.1.1)
+  - MBProgressHUD (= 1.0.0)
+  - SDWebImage (= 4.3.3)
+  - YYCategories (= 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - MBProgressHUD
+    - SDWebImage
+    - YYCategories
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 025f5fc3fd3d3b1472be090ef5aeb947817210dd
+
+COCOAPODS: 1.5.3

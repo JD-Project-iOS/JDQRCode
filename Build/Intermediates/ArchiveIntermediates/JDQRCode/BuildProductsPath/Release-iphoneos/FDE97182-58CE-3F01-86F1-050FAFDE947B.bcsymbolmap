@@ -1,0 +1,535 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+_OBJC_CLASS_$_ViewController
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/ViewController.m
+/Users/liweijie/Desktop/JDQRCode
++[UIImage(streth) strethImageWith:]
++[UIImage(streth) imageWithColor:size:]
++[UIImage(streth) imageCompressForSize:targetSize:]
++[UIImage(streth) imageCompressForHeight:targetHeight:]
++[UIImage(streth) imageCompressForWidth:targetWidth:]
++[UIImage(streth) sizeCompressForWidth:targetWidth:]
+-[UIImage(streth) scaleToSize:]
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/UIImage+streth.m
+CGSizeMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__CGSizeEqualToSize
++[JMScanningQRCodeUtils jm_scanQRCodeFromPhotosAlbum:]
++[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]
+___64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke
+___64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___copy_helper_block_.23
+___destroy_helper_block_.24
+___64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke.39
++[JMScanningQRCodeUtils jm_albumAuthStatusWithSuccess:failure:]
+___63+[JMScanningQRCodeUtils jm_albumAuthStatusWithSuccess:failure:]_block_invoke
+___63+[JMScanningQRCodeUtils jm_albumAuthStatusWithSuccess:failure:]_block_invoke_2
+___copy_helper_block_.58
+___destroy_helper_block_.59
+___copy_helper_block_.61
+___destroy_helper_block_.62
+___block_descriptor_tmp
+___block_descriptor_tmp.26
+___block_descriptor_tmp.41
+___block_literal_global
+___block_descriptor_tmp.60
+___block_descriptor_tmp.64
+_OBJC_METACLASS_$_JMScanningQRCodeUtils
+_OBJC_CLASS_$_JMScanningQRCodeUtils
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCode/JMScanningQRCodeUtils.m
+__destroy_helper_block_
+__copy_helper_block_
+__63+[JMScanningQRCodeUtils jm_albumAuthStatusWithSuccess:failure:]_block_invoke_2
+__63+[JMScanningQRCodeUtils jm_albumAuthStatusWithSuccess:failure:]_block_invoke
+__64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke.39
+__64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke_2
+__64+[JMScanningQRCodeUtils jm_cameraAuthStatusWithSuccess:failure:]_block_invoke
++[LookOrSaveController startWithNav:str:type:logo:]
+-[LookOrSaveController viewDidLoad]
+-[LookOrSaveController initCustomNavbar]
+-[LookOrSaveController touchSaveBtn:]
+-[LookOrSaveController saveQRCard]
+-[LookOrSaveController image:didFinishSavingWithError:contextInfo:]
+-[LookOrSaveController screenShot]
+-[LookOrSaveController numberOfComponentsInPickerView:]
+-[LookOrSaveController pickerView:numberOfRowsInComponent:]
+-[LookOrSaveController pickerView:titleForRow:forComponent:]
+-[LookOrSaveController lookQRCoderImage]
+-[LookOrSaveController setLookQRCoderImage:]
+-[LookOrSaveController saveBtn]
+-[LookOrSaveController setSaveBtn:]
+-[LookOrSaveController picker]
+-[LookOrSaveController setPicker:]
+-[LookOrSaveController str]
+-[LookOrSaveController setStr:]
+-[LookOrSaveController size]
+-[LookOrSaveController setSize:]
+-[LookOrSaveController sizeArr]
+-[LookOrSaveController setSizeArr:]
+-[LookOrSaveController type]
+-[LookOrSaveController setType:]
+-[LookOrSaveController logo]
+-[LookOrSaveController setLogo:]
+-[LookOrSaveController .cxx_destruct]
+_OBJC_CLASS_$_LookOrSaveController
+_OBJC_IVAR_$_LookOrSaveController._type
+_OBJC_CLASS_$_JMGenerateQRCodeUtils
+_OBJC_IVAR_$_LookOrSaveController._logo
+_OBJC_CLASS_$_JDCommonNavBar
+_OBJC_CLASS_$_UserUtil
+_OBJC_IVAR_$_LookOrSaveController._lookQRCoderImage
+_OBJC_IVAR_$_LookOrSaveController._saveBtn
+_OBJC_IVAR_$_LookOrSaveController._picker
+_OBJC_IVAR_$_LookOrSaveController._str
+_OBJC_IVAR_$_LookOrSaveController._size
+_OBJC_IVAR_$_LookOrSaveController._sizeArr
+_OBJC_METACLASS_$_BaseUIViewController
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIPickerViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIPickerViewDelegate
+l_OBJC_PROTOCOL_$_UIPickerViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UIPickerViewDataSource
+l_OBJC_PROTOCOL_$_JDCommonNavBarDelegate
+l_OBJC_LABEL_PROTOCOL_$_JDCommonNavBarDelegate
+l_OBJC_PROTOCOL_$_UIActionSheetDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIActionSheetDelegate
+_OBJC_METACLASS_$_LookOrSaveController
+_OBJC_CLASS_$_BaseUIViewController
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/LookOrSaveController.m
++[EditeQRCodeController startWithNav:type:]
+-[EditeQRCodeController viewDidLoad]
+-[EditeQRCodeController viewWillAppear:]
+-[EditeQRCodeController initCustomNavbar]
+-[EditeQRCodeController initSubViews]
+-[EditeQRCodeController touchGoBtn:]
+-[EditeQRCodeController touchSelectBtn:]
+-[EditeQRCodeController handleRightBarButtonAction]
+-[EditeQRCodeController imagePickerController:didFinishPickingMediaWithInfo:]
+___77-[EditeQRCodeController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+-[EditeQRCodeController onJDCommonNavBarRightButtonTouch:]
+-[EditeQRCodeController scroll]
+-[EditeQRCodeController setScroll:]
+-[EditeQRCodeController bgView]
+-[EditeQRCodeController setBgView:]
+-[EditeQRCodeController strTxf]
+-[EditeQRCodeController setStrTxf:]
+-[EditeQRCodeController goBtn]
+-[EditeQRCodeController setGoBtn:]
+-[EditeQRCodeController selectBtn]
+-[EditeQRCodeController setSelectBtn:]
+-[EditeQRCodeController type]
+-[EditeQRCodeController setType:]
+-[EditeQRCodeController logoImage]
+-[EditeQRCodeController setLogoImage:]
+-[EditeQRCodeController .cxx_destruct]
+_OBJC_CLASS_$_EditeQRCodeController
+_OBJC_IVAR_$_EditeQRCodeController._scroll
+_OBJC_IVAR_$_EditeQRCodeController._bgView
+_OBJC_IVAR_$_EditeQRCodeController._strTxf
+_OBJC_IVAR_$_EditeQRCodeController._goBtn
+_OBJC_IVAR_$_EditeQRCodeController._selectBtn
+_OBJC_IVAR_$_EditeQRCodeController._type
+_OBJC_IVAR_$_EditeQRCodeController._logoImage
+l_OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
+l_OBJC_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+_OBJC_METACLASS_$_EditeQRCodeController
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/EditeQRCodeController.m
+__77-[EditeQRCodeController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+-[MainNavController viewDidLoad]
+-[MainNavController navigationLock]
+-[MainNavController pushViewController:animated:]
+-[MainNavController pushViewController:animated:navigationLock:]
+-[MainNavController navigationlock]
+-[MainNavController popToViewController:animated:navigationLock:]
+-[MainNavController popToRootViewControllerAnimated:navigationLock:]
+-[MainNavController navigationController:didShowViewController:animated:]
+_OBJC_CLASS_$_MainNavController
+_OBJC_METACLASS_$_MainNavController
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/MainNavController.m
+-[HomeCell initWithFrame:]
+-[HomeCell layoutSubviews]
+-[HomeCell image]
+-[HomeCell setImage:]
+-[HomeCell titleLabel]
+-[HomeCell setTitleLabel:]
+-[HomeCell topView]
+-[HomeCell setTopView:]
+-[HomeCell .cxx_destruct]
+_OBJC_CLASS_$_HomeCell
+_OBJC_IVAR_$_HomeCell._image
+_OBJC_IVAR_$_HomeCell._titleLabel
+_OBJC_IVAR_$_HomeCell._topView
+_OBJC_METACLASS_$_HomeCell
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/HomeCell.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/HomeCell.h
+CGRectMake
+_OBJC_CLASS_$_AppDelegate
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/main.m
+main
+-[JMScanningQRCodeView initWithFrame:]
+-[JMScanningQRCodeView layoutSubviews]
+-[JMScanningQRCodeView drawRect:]
+-[JMScanningQRCodeView initQRLine]
+-[JMScanningQRCodeView animateQRLine]
+___37-[JMScanningQRCodeView animateQRLine]_block_invoke
+___37-[JMScanningQRCodeView animateQRLine]_block_invoke.43
+___copy_helper_block_.44
+___destroy_helper_block_.45
+-[JMScanningQRCodeView initConfig]
+-[JMScanningQRCodeView handleScanResult:]
+-[JMScanningQRCodeView qrCornerLineColorWithRed:green:blue:alpha:]
+-[JMScanningQRCodeView startRunning]
+-[JMScanningQRCodeView startRunningWithConfig:]
+-[JMScanningQRCodeView stopRunning]
+-[JMScanningQRCodeView removeTimer]
+-[JMScanningQRCodeView addScreenFillWithContext:rect:]
+-[JMScanningQRCodeView addCenterClearWithContext:rect:]
+-[JMScanningQRCodeView addWhiteWithContext:rect:]
+-[JMScanningQRCodeView addCornerLineWithContext:rect:]
+-[JMScanningQRCodeView addLine:pointB:ctx:]
+-[JMScanningQRCodeView captureOutput:didOutputMetadataObjects:fromConnection:]
+-[JMScanningQRCodeView setTransparentArea:]
+-[JMScanningQRCodeView setTransparentOriginY:]
+-[JMScanningQRCodeView setQrLineSize:]
+-[JMScanningQRCodeView setOpenSystemLight:]
+-[JMScanningQRCodeView transparentArea]
+-[JMScanningQRCodeView transparentOriginY]
+-[JMScanningQRCodeView openSystemLight]
+-[JMScanningQRCodeView scanningQRCodeResult]
+-[JMScanningQRCodeView setScanningQRCodeResult:]
+-[JMScanningQRCodeView qrLineImageName]
+-[JMScanningQRCodeView setQrLineImageName:]
+-[JMScanningQRCodeView qrLineColor]
+-[JMScanningQRCodeView setQrLineColor:]
+-[JMScanningQRCodeView qrLineSize]
+-[JMScanningQRCodeView qrLineAnimateDuration]
+-[JMScanningQRCodeView setQrLineAnimateDuration:]
+-[JMScanningQRCodeView cornerLineLength]
+-[JMScanningQRCodeView setCornerLineLength:]
+-[JMScanningQRCodeView .cxx_destruct]
+-[JMScanningQRCodeConfig initWithQRCodeView:delegate:]
+-[JMScanningQRCodeConfig qrConfig:withDelegate:]
+-[JMScanningQRCodeConfig videoOrientationFromCurrentDeviceOrientation]
+-[JMScanningQRCodeConfig device]
+-[JMScanningQRCodeConfig setDevice:]
+-[JMScanningQRCodeConfig input]
+-[JMScanningQRCodeConfig setInput:]
+-[JMScanningQRCodeConfig output]
+-[JMScanningQRCodeConfig setOutput:]
+-[JMScanningQRCodeConfig session]
+-[JMScanningQRCodeConfig setSession:]
+-[JMScanningQRCodeConfig preview]
+-[JMScanningQRCodeConfig setPreview:]
+-[JMScanningQRCodeConfig .cxx_destruct]
+_jm_qr_cornerLineOffX
+_jm_qr_cornerLineOffY
+_jm_qr_scanLineOffY
+_OBJC_CLASS_$_JMScanningQRCodeView
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineAnimateDuration
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineImageName
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineSize
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineColorRed
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineColorGreen
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineColorBlue
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineColorAlpha
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineColor
+_OBJC_IVAR_$_JMScanningQRCodeView._cornerLineLength
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineImageView
+_OBJC_IVAR_$_JMScanningQRCodeView._transparentArea
+_OBJC_IVAR_$_JMScanningQRCodeView._transparentOriginY
+_OBJC_IVAR_$_JMScanningQRCodeView._qrLineY
+_OBJC_IVAR_$_JMScanningQRCodeView._scaMaxBorder
+___block_descriptor_tmp.47
+_OBJC_IVAR_$_JMScanningQRCodeView._qrConfig
+_OBJC_CLASS_$_JMScanningQRCodeConfig
+_OBJC_IVAR_$_JMScanningQRCodeView._isScanResult
+_OBJC_IVAR_$_JMScanningQRCodeView._scanningQRCodeResult
+_OBJC_IVAR_$_JMScanningQRCodeView._timer
+_OBJC_IVAR_$_JMScanningQRCodeView._openSystemLight
+_OBJC_METACLASS_$_JMScanningQRCodeView
+_OBJC_IVAR_$_JMScanningQRCodeConfig._session
+_OBJC_IVAR_$_JMScanningQRCodeConfig._output
+_OBJC_IVAR_$_JMScanningQRCodeConfig._device
+_OBJC_IVAR_$_JMScanningQRCodeConfig._input
+_OBJC_IVAR_$_JMScanningQRCodeConfig._preview
+_OBJC_METACLASS_$_JMScanningQRCodeConfig
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCode/JMScanningQRCodeView.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCode/JMScanningQRCodeView.h
+CGPointMake
+__37-[JMScanningQRCodeView animateQRLine]_block_invoke.43
+__37-[JMScanningQRCodeView animateQRLine]_block_invoke
+-[JDCommonNavBar initWithFrame:]
+-[JDCommonNavBar initWithCoder:]
+-[JDCommonNavBar initSubView]
+-[JDCommonNavBar initButtonLeft]
+-[JDCommonNavBar initButtonRight]
+-[JDCommonNavBar initLabelTitle]
+-[JDCommonNavBar layoutSubView]
+-[JDCommonNavBar leftButtonTouch:]
+-[JDCommonNavBar rightButtonTouch:]
+-[JDCommonNavBar initLeftButtonImageName:]
+-[JDCommonNavBar initRightButtonImageName:]
+-[JDCommonNavBar initTitle:]
+-[JDCommonNavBar initWithLeftButtonImageName:andRightButtonImageName:andTitle:]
+-[JDCommonNavBar reloadTitleName:color:]
+-[JDCommonNavBar setRightButtonTitle:WithColor:]
+-[JDCommonNavBar setLeftButtonTitle:WithColor:]
+-[JDCommonNavBar setRightButtonHidden]
+-[JDCommonNavBar delegate]
+-[JDCommonNavBar setDelegate:]
+-[JDCommonNavBar buttonRight]
+-[JDCommonNavBar setButtonRight:]
+-[JDCommonNavBar buttonLeft]
+-[JDCommonNavBar setButtonLeft:]
+-[JDCommonNavBar labelTitle]
+-[JDCommonNavBar setLabelTitle:]
+-[JDCommonNavBar .cxx_destruct]
+_HAJZB_CustomNavBarButtonWidth
+_HAJZB_CustomNavBarButtonHeight
+_OBJC_IVAR_$_JDCommonNavBar._buttonLeft
+_OBJC_IVAR_$_JDCommonNavBar._buttonRight
+_OBJC_IVAR_$_JDCommonNavBar._labelTitle
+_OBJC_IVAR_$_JDCommonNavBar._delegate
+_OBJC_METACLASS_$_JDCommonNavBar
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JDCommonNavBar.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JDCommonNavBar.h
+-[JMQRCodeLoadView initWithFrame:]
+-[JMQRCodeLoadView setupViews]
+-[JMQRCodeLoadView indicatorView]
+-[JMQRCodeLoadView setIndicatorView:]
+-[JMQRCodeLoadView titleLabel]
+-[JMQRCodeLoadView setTitleLabel:]
+-[JMQRCodeLoadView .cxx_destruct]
+_kView_Size_W
+_kView_Size_H
+_OBJC_CLASS_$_JMQRCodeLoadView
+_OBJC_IVAR_$_JMQRCodeLoadView._indicatorView
+_OBJC_IVAR_$_JMQRCodeLoadView._titleLabel
+_OBJC_METACLASS_$_JMQRCodeLoadView
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCodeLoadView.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCodeLoadView.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_CLASS_$_HomeController
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/AppDelegate.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/AppDelegate.h
+-[JMScanningResultVC viewDidLoad]
+-[JMScanningResultVC didReceiveMemoryWarning]
+-[JMScanningResultVC setupViews]
+-[JMScanningResultVC setupLabel]
+-[JMScanningResultVC setupWebView]
+-[JMScanningResultVC resultType]
+-[JMScanningResultVC setResultType:]
+-[JMScanningResultVC resultInfo]
+-[JMScanningResultVC setResultInfo:]
+-[JMScanningResultVC .cxx_destruct]
+_OBJC_CLASS_$_JMScanningResultVC
+_OBJC_IVAR_$_JMScanningResultVC._resultType
+_OBJC_IVAR_$_JMScanningResultVC._resultInfo
+_OBJC_METACLASS_$_JMScanningResultVC
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMScanningResultVC.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMScanningResultVC.h
+-[BaseUIViewController viewDidLoad]
+-[BaseUIViewController backAction]
+-[BaseUIViewController viewWillAppear:]
+-[BaseUIViewController viewDidDisappear:]
+-[BaseUIViewController gestureRecognizerShouldBegin:]
+-[BaseUIViewController timerFlashWith:]
+-[BaseUIViewController theTimer:]
+-[BaseUIViewController reloadFeedback]
+-[BaseUIViewController onJDCommonNavBarLeftButtonTouch:]
+-[BaseUIViewController addLeftNavbarButton:]
+-[BaseUIViewController addRightNavbarButton:]
+-[BaseUIViewController setStatusBarBackgroundColor:]
+-[BaseUIViewController getRightPointLightTipWithTxf:rightNum:]
+-[BaseUIViewController tableView:cellForRowAtIndexPath:]
+-[BaseUIViewController tableView:numberOfRowsInSection:]
+-[BaseUIViewController getRealStr:]
+-[BaseUIViewController isFirstAppear]
+-[BaseUIViewController setIsFirstAppear:]
+-[BaseUIViewController isRealName]
+-[BaseUIViewController setIsRealName:]
+-[BaseUIViewController .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$_BaseUIViewController._isFirstAppear
+_OBJC_IVAR_$_BaseUIViewController._isRealName
+_OBJC_IVAR_$_BaseUIViewController.alert
+_OBJC_IVAR_$_BaseUIViewController.context
+l_OBJC_PROTOCOL_$_SKStoreProductViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_SKStoreProductViewControllerDelegate
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_$_UIAlertViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIAlertViewDelegate
+l_OBJC_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITextViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/BaseUIViewController.m
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/BaseUIViewController.h
+-[JMScanningQRCodeVC viewDidLoad]
+-[JMScanningQRCodeVC didReceiveMemoryWarning]
+-[JMScanningQRCodeVC viewWillAppear:]
+-[JMScanningQRCodeVC viewDidAppear:]
+-[JMScanningQRCodeVC viewWillDisappear:]
+-[JMScanningQRCodeVC viewDidDisappear:]
+-[JMScanningQRCodeVC setupViews]
+___32-[JMScanningQRCodeVC setupViews]_block_invoke
+-[JMScanningQRCodeVC setupLoadView]
+-[JMScanningQRCodeVC setupRightBarButtonItem]
+-[JMScanningQRCodeVC startRunning]
+___34-[JMScanningQRCodeVC startRunning]_block_invoke
+___copy_helper_block_.114
+___destroy_helper_block_.115
+-[JMScanningQRCodeVC stopRunning]
+-[JMScanningQRCodeVC pushVCWithType:result:]
+-[JMScanningQRCodeVC changeLightSwitch]
+-[JMScanningQRCodeVC handleRightBarButtonAction]
+-[JMScanningQRCodeVC imagePickerController:didFinishPickingMediaWithInfo:]
+___74-[JMScanningQRCodeVC imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+___copy_helper_block_.152
+___destroy_helper_block_.153
+-[JMScanningQRCodeVC .cxx_destruct]
+_OBJC_CLASS_$_JMScanningQRCodeVC
+_OBJC_IVAR_$_JMScanningQRCodeVC._firstLoad
+_OBJC_IVAR_$_JMScanningQRCodeVC._qrView
+_OBJC_IVAR_$_JMScanningQRCodeVC._lightBtn
+_OBJC_IVAR_$_JMScanningQRCodeVC._loadView
+___block_descriptor_tmp.117
+_OBJC_IVAR_$_JMScanningQRCodeVC._isOpenLight
+___block_descriptor_tmp.154
+_OBJC_METACLASS_$_JMScanningQRCodeVC
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMScanningQRCodeVC.m
+__74-[JMScanningQRCodeVC imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+__34-[JMScanningQRCodeVC startRunning]_block_invoke
+__32-[JMScanningQRCodeVC setupViews]_block_invoke
++[NSString(LWTool) createQRcodWithUrl:Width:]
++[NSString(LWTool) createNonInterpolatedUIImageFormCIImage:withSize:]
++[NSString(LWTool) getDicWithValueArr:keyArr:]
+___46+[NSString(LWTool) getDicWithValueArr:keyArr:]_block_invoke
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/NSString+LWTool.m
+__46+[NSString(LWTool) getDicWithValueArr:keyArr:]_block_invoke
++[UserUtil findPath]
++[UserUtil saveObject:key:]
++[UserUtil clearUserData]
+_OBJC_METACLASS_$_UserUtil
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/UserUtil.m
++[MyController startWithNav:data:]
+-[MyController viewDidLoad]
+-[MyController viewWillAppear:]
+-[MyController initCustomNavbar]
+-[MyController initSubViews]
+-[MyController numberOfSectionsInCollectionView:]
+-[MyController collectionView:numberOfItemsInSection:]
+-[MyController collectionView:cellForItemAtIndexPath:]
+-[MyController collectionView:layout:sizeForItemAtIndexPath:]
+-[MyController collectionView:layout:insetForSectionAtIndex:]
+-[MyController collectionView:layout:minimumInteritemSpacingForSectionAtIndex:]
+-[MyController collectionView:layout:minimumLineSpacingForSectionAtIndex:]
+-[MyController collectionView:didSelectItemAtIndexPath:]
+-[MyController collectionView:didUnhighlightItemAtIndexPath:]
+-[MyController collectionView:didHighlightItemAtIndexPath:]
+-[MyController collectionView:shouldHighlightItemAtIndexPath:]
+-[MyController onJDCommonNavBarLeftButtonTouch:]
+-[MyController navBar]
+-[MyController setNavBar:]
+-[MyController dataList]
+-[MyController setDataList:]
+-[MyController .cxx_destruct]
+_OBJC_CLASS_$_MyController
+_OBJC_IVAR_$_MyController.mainCollectionView
+_OBJC_IVAR_$_MyController._navBar
+_OBJC_IVAR_$_MyController._dataList
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+_OBJC_METACLASS_$_MyController
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/MyController.m
+UIEdgeInsetsMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
++[MBProgressHUD(Extension) show:icon:view:]
++[MBProgressHUD(Extension) showloadingToView:]
++[MBProgressHUD(Extension) showError:toView:]
++[MBProgressHUD(Extension) showSuccess:toView:]
++[MBProgressHUD(Extension) showMessage:toView:]
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/MBProgressHUD/MBProgressHUD+Extension.m
+-[HomeController viewDidLoad]
+-[HomeController viewWillAppear:]
+-[HomeController initCustomNavbar]
+-[HomeController initSubViews]
+-[HomeController myView]
+-[HomeController touchNameBtn:]
+-[HomeController getNewCacheTip]
+-[HomeController numberOfSectionsInCollectionView:]
+-[HomeController collectionView:numberOfItemsInSection:]
+-[HomeController collectionView:cellForItemAtIndexPath:]
+-[HomeController collectionView:layout:sizeForItemAtIndexPath:]
+-[HomeController collectionView:layout:insetForSectionAtIndex:]
+-[HomeController collectionView:layout:minimumInteritemSpacingForSectionAtIndex:]
+-[HomeController collectionView:layout:minimumLineSpacingForSectionAtIndex:]
+-[HomeController collectionView:didSelectItemAtIndexPath:]
+-[HomeController collectionView:didUnhighlightItemAtIndexPath:]
+-[HomeController collectionView:didHighlightItemAtIndexPath:]
+-[HomeController collectionView:shouldHighlightItemAtIndexPath:]
+-[HomeController onJDCommonNavBarLeftButtonTouch:]
+-[HomeController onJDCommonNavBarRightButtonTouch:]
+___51-[HomeController onJDCommonNavBarRightButtonTouch:]_block_invoke
+___51-[HomeController onJDCommonNavBarRightButtonTouch:]_block_invoke.209
+-[HomeController navBar]
+-[HomeController setNavBar:]
+-[HomeController dataList]
+-[HomeController setDataList:]
+-[HomeController data]
+-[HomeController setData:]
+-[HomeController setMyView:]
+-[HomeController tipBtn]
+-[HomeController setTipBtn:]
+-[HomeController .cxx_destruct]
+_OBJC_IVAR_$_HomeController._tipBtn
+_OBJC_IVAR_$_HomeController.mainCollectionView
+_OBJC_IVAR_$_HomeController._myView
+___block_descriptor_tmp.210
+_OBJC_IVAR_$_HomeController._navBar
+_OBJC_IVAR_$_HomeController._dataList
+_OBJC_IVAR_$_HomeController._data
+_OBJC_METACLASS_$_HomeController
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/HomeController.m
+__51-[HomeController onJDCommonNavBarRightButtonTouch:]_block_invoke.209
+__51-[HomeController onJDCommonNavBarRightButtonTouch:]_block_invoke
++[JMGenerateQRCodeUtils jm_generateQRCodeWithString:imageSize:]
++[JMGenerateQRCodeUtils jm_generateQRCodeWithString:imageSize:logoImageName:logoImageSize:]
++[JMGenerateQRCodeUtils jm_generateColorQRCodeWithString:imageSize:rgbColor:backgroundColor:]
++[JMGenerateQRCodeUtils jm_generateColorQRCodeWithString:imageSize:rgbColor:backgroundColor:logoImageName:logoImageSize:]
++[JMGenerateQRCodeUtils outputNormalImageWithString:imageSize:]
++[JMGenerateQRCodeUtils outputColorImageWithString:imageSize:rgbColor:backgroundColor:]
++[JMGenerateQRCodeUtils createNonInterpolatedUIImageFormCIImage:withImageSize:]
++[JMGenerateQRCodeUtils createLogoImageWithOriginImage:originImageSize:logoImageSize:logoImageName:]
+_OBJC_METACLASS_$_JMGenerateQRCodeUtils
+/Users/liweijie/Desktop/JDQRCode/JDQRCode/JMQRCode/JMGenerateQRCodeUtils.m

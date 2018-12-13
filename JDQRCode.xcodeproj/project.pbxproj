@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8173D006D242186FAED15EA9 /* Pods_JDQRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44076CC0C9361F3E28BABBE0 /* Pods_JDQRCode.framework */; };
+		E06075E121B79CF000C44BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075E021B79CF000C44BE0 /* AppDelegate.m */; };
+		E06075E421B79CF000C44BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075E321B79CF000C44BE0 /* ViewController.m */; };
+		E06075E921B79CF000C44BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06075E821B79CF000C44BE0 /* Assets.xcassets */; };
+		E06075EF21B79CF000C44BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075EE21B79CF000C44BE0 /* main.m */; };
+		E06075FD21B79DE500C44BE0 /* JMGenerateQRCodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075F821B79DE500C44BE0 /* JMGenerateQRCodeUtils.m */; };
+		E06075FE21B79DE500C44BE0 /* JMScanningQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075F921B79DE500C44BE0 /* JMScanningQRCodeView.m */; };
+		E06075FF21B79DE500C44BE0 /* JMScanningQRCodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E06075FA21B79DE500C44BE0 /* JMScanningQRCodeUtils.m */; };
+		E060760421B7A0F800C44BE0 /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060760021B7A0F800C44BE0 /* BaseUIViewController.m */; };
+		E060760521B7A0F800C44BE0 /* JDCommonNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E060760321B7A0F800C44BE0 /* JDCommonNavBar.m */; };
+		E060760B21B7AB8D00C44BE0 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060760921B7AB8D00C44BE0 /* HomeController.m */; };
+		E060760C21B7AB8D00C44BE0 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E060760A21B7AB8D00C44BE0 /* HomeController.xib */; };
+		E060760F21B7AD2300C44BE0 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E060760E21B7AD2300C44BE0 /* HomeCell.m */; };
+		E060761321B7B13700C44BE0 /* EditeQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060761121B7B13700C44BE0 /* EditeQRCodeController.m */; };
+		E060761421B7B13700C44BE0 /* EditeQRCodeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E060761221B7B13700C44BE0 /* EditeQRCodeController.xib */; };
+		E060761821B7B4B200C44BE0 /* LookOrSaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060761621B7B4B200C44BE0 /* LookOrSaveController.m */; };
+		E060761921B7B4B200C44BE0 /* LookOrSaveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E060761721B7B4B200C44BE0 /* LookOrSaveController.xib */; };
+		E060761C21B7B70D00C44BE0 /* NSString+LWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E060761B21B7B70D00C44BE0 /* NSString+LWTool.m */; };
+		E060762021B7D54700C44BE0 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060761E21B7D54600C44BE0 /* MyController.m */; };
+		E060762121B7D54700C44BE0 /* MyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E060761F21B7D54700C44BE0 /* MyController.xib */; };
+		E060763021B8F09F00C44BE0 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060762F21B8F09F00C44BE0 /* MainNavController.m */; };
+		E060763321B8F18B00C44BE0 /* UIImage+streth.m in Sources */ = {isa = PBXBuildFile; fileRef = E060763221B8F18A00C44BE0 /* UIImage+streth.m */; };
+		E060763621B8F6CF00C44BE0 /* UserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E060763421B8F6CF00C44BE0 /* UserUtil.m */; };
+		E060764221B8FB8400C44BE0 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E060764021B8FB8400C44BE0 /* MBProgressHUD+Extension.m */; };
+		E060764321B8FB8400C44BE0 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E060764121B8FB8400C44BE0 /* MBProgressHUD.bundle */; };
+		E060764A21B9069800C44BE0 /* JMScanningQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E060764421B9069700C44BE0 /* JMScanningQRCodeVC.m */; };
+		E060764B21B9069800C44BE0 /* JMScanningResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E060764821B9069800C44BE0 /* JMScanningResultVC.m */; };
+		E060764C21B9069800C44BE0 /* JMQRCodeLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E060764921B9069800C44BE0 /* JMQRCodeLoadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44076CC0C9361F3E28BABBE0 /* Pods_JDQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7F1C9F9607A6E2AC43DB60 /* Pods-JDQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDQRCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode.debug.xcconfig"; sourceTree = "<group>"; };
+		E06075DC21B79CF000C44BE0 /* JDQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06075DF21B79CF000C44BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E06075E021B79CF000C44BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E06075E221B79CF000C44BE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E06075E321B79CF000C44BE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E06075E821B79CF000C44BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06075ED21B79CF000C44BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06075EE21B79CF000C44BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E06075F621B79DE500C44BE0 /* JMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQRCode.h; sourceTree = "<group>"; };
+		E06075F721B79DE500C44BE0 /* JMScanningQRCodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScanningQRCodeUtils.h; sourceTree = "<group>"; };
+		E06075F821B79DE500C44BE0 /* JMGenerateQRCodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMGenerateQRCodeUtils.m; sourceTree = "<group>"; };
+		E06075F921B79DE500C44BE0 /* JMScanningQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScanningQRCodeView.m; sourceTree = "<group>"; };
+		E06075FA21B79DE500C44BE0 /* JMScanningQRCodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScanningQRCodeUtils.m; sourceTree = "<group>"; };
+		E06075FB21B79DE500C44BE0 /* JMScanningQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScanningQRCodeView.h; sourceTree = "<group>"; };
+		E06075FC21B79DE500C44BE0 /* JMGenerateQRCodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMGenerateQRCodeUtils.h; sourceTree = "<group>"; };
+		E060760021B7A0F800C44BE0 /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIViewController.m; sourceTree = "<group>"; };
+		E060760121B7A0F800C44BE0 /* JDCommonNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCommonNavBar.h; sourceTree = "<group>"; };
+		E060760221B7A0F800C44BE0 /* BaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIViewController.h; sourceTree = "<group>"; };
+		E060760321B7A0F800C44BE0 /* JDCommonNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCommonNavBar.m; sourceTree = "<group>"; };
+		E060760721B7A96B00C44BE0 /* JDQRCodeHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDQRCodeHeader.pch; sourceTree = "<group>"; };
+		E060760821B7AB8D00C44BE0 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		E060760921B7AB8D00C44BE0 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		E060760A21B7AB8D00C44BE0 /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		E060760D21B7AD2300C44BE0 /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		E060760E21B7AD2300C44BE0 /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		E060761021B7B13700C44BE0 /* EditeQRCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditeQRCodeController.h; sourceTree = "<group>"; };
+		E060761121B7B13700C44BE0 /* EditeQRCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditeQRCodeController.m; sourceTree = "<group>"; };
+		E060761221B7B13700C44BE0 /* EditeQRCodeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditeQRCodeController.xib; sourceTree = "<group>"; };
+		E060761521B7B4B200C44BE0 /* LookOrSaveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookOrSaveController.h; sourceTree = "<group>"; };
+		E060761621B7B4B200C44BE0 /* LookOrSaveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookOrSaveController.m; sourceTree = "<group>"; };
+		E060761721B7B4B200C44BE0 /* LookOrSaveController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookOrSaveController.xib; sourceTree = "<group>"; };
+		E060761A21B7B70D00C44BE0 /* NSString+LWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LWTool.h"; sourceTree = "<group>"; };
+		E060761B21B7B70D00C44BE0 /* NSString+LWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LWTool.m"; sourceTree = "<group>"; };
+		E060761D21B7D54600C44BE0 /* MyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		E060761E21B7D54600C44BE0 /* MyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		E060761F21B7D54700C44BE0 /* MyController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyController.xib; sourceTree = "<group>"; };
+		E060762E21B8F09E00C44BE0 /* MainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavController.h; sourceTree = "<group>"; };
+		E060762F21B8F09F00C44BE0 /* MainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavController.m; sourceTree = "<group>"; };
+		E060763121B8F18A00C44BE0 /* UIImage+streth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+streth.h"; sourceTree = "<group>"; };
+		E060763221B8F18A00C44BE0 /* UIImage+streth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+streth.m"; sourceTree = "<group>"; };
+		E060763421B8F6CF00C44BE0 /* UserUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserUtil.m; sourceTree = "<group>"; };
+		E060763521B8F6CF00C44BE0 /* UserUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserUtil.h; sourceTree = "<group>"; };
+		E060763F21B8FB8400C44BE0 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		E060764021B8FB8400C44BE0 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		E060764121B8FB8400C44BE0 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E060764421B9069700C44BE0 /* JMScanningQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScanningQRCodeVC.m; sourceTree = "<group>"; };
+		E060764521B9069700C44BE0 /* JMQRCodeLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQRCodeLoadView.h; sourceTree = "<group>"; };
+		E060764621B9069700C44BE0 /* JMScanningQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScanningQRCodeVC.h; sourceTree = "<group>"; };
+		E060764721B9069700C44BE0 /* JMScanningResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScanningResultVC.h; sourceTree = "<group>"; };
+		E060764821B9069800C44BE0 /* JMScanningResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScanningResultVC.m; sourceTree = "<group>"; };
+		E060764921B9069800C44BE0 /* JMQRCodeLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQRCodeLoadView.m; sourceTree = "<group>"; };
+		E0F55BF921BF889300E7B9B2 /* 杭州印.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "杭州印.gpx"; sourceTree = "<group>"; };
+		E0F55BFA21BF88DB00E7B9B2 /* 苏苏.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "苏苏.gpx"; sourceTree = "<group>"; };
+		EFDD00ADFA3F985255AFF456 /* Pods-JDQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06075D921B79CF000C44BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8173D006D242186FAED15EA9 /* Pods_JDQRCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5369FC7F06CD9F3A38CEF154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A7F1C9F9607A6E2AC43DB60 /* Pods-JDQRCode.debug.xcconfig */,
+				EFDD00ADFA3F985255AFF456 /* Pods-JDQRCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D0D9651433336E0D93C8ECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44076CC0C9361F3E28BABBE0 /* Pods_JDQRCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06075D321B79CF000C44BE0 = {
+			isa = PBXGroup;
+			children = (
+				E06075DE21B79CF000C44BE0 /* JDQRCode */,
+				E06075DD21B79CF000C44BE0 /* Products */,
+				5369FC7F06CD9F3A38CEF154 /* Pods */,
+				6D0D9651433336E0D93C8ECB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E06075DD21B79CF000C44BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06075DC21B79CF000C44BE0 /* JDQRCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06075DE21B79CF000C44BE0 /* JDQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				E060761A21B7B70D00C44BE0 /* NSString+LWTool.h */,
+				E060761B21B7B70D00C44BE0 /* NSString+LWTool.m */,
+				E060760221B7A0F800C44BE0 /* BaseUIViewController.h */,
+				E060760021B7A0F800C44BE0 /* BaseUIViewController.m */,
+				E060760121B7A0F800C44BE0 /* JDCommonNavBar.h */,
+				E060760321B7A0F800C44BE0 /* JDCommonNavBar.m */,
+				E060762E21B8F09E00C44BE0 /* MainNavController.h */,
+				E060762F21B8F09F00C44BE0 /* MainNavController.m */,
+				E060763121B8F18A00C44BE0 /* UIImage+streth.h */,
+				E060763221B8F18A00C44BE0 /* UIImage+streth.m */,
+				E060763521B8F6CF00C44BE0 /* UserUtil.h */,
+				E060763421B8F6CF00C44BE0 /* UserUtil.m */,
+				E060763721B8FB3C00C44BE0 /* MBProgressHUD */,
+				E06075F521B79DE500C44BE0 /* JMQRCode */,
+				E06075DF21B79CF000C44BE0 /* AppDelegate.h */,
+				E06075E021B79CF000C44BE0 /* AppDelegate.m */,
+				E06075E221B79CF000C44BE0 /* ViewController.h */,
+				E06075E321B79CF000C44BE0 /* ViewController.m */,
+				E060760821B7AB8D00C44BE0 /* HomeController.h */,
+				E060760921B7AB8D00C44BE0 /* HomeController.m */,
+				E060760A21B7AB8D00C44BE0 /* HomeController.xib */,
+				E060760D21B7AD2300C44BE0 /* HomeCell.h */,
+				E060760E21B7AD2300C44BE0 /* HomeCell.m */,
+				E060761021B7B13700C44BE0 /* EditeQRCodeController.h */,
+				E060761121B7B13700C44BE0 /* EditeQRCodeController.m */,
+				E060761221B7B13700C44BE0 /* EditeQRCodeController.xib */,
+				E060761521B7B4B200C44BE0 /* LookOrSaveController.h */,
+				E060761621B7B4B200C44BE0 /* LookOrSaveController.m */,
+				E060761721B7B4B200C44BE0 /* LookOrSaveController.xib */,
+				E060761D21B7D54600C44BE0 /* MyController.h */,
+				E060761E21B7D54600C44BE0 /* MyController.m */,
+				E060761F21B7D54700C44BE0 /* MyController.xib */,
+				E060764521B9069700C44BE0 /* JMQRCodeLoadView.h */,
+				E060764921B9069800C44BE0 /* JMQRCodeLoadView.m */,
+				E060764621B9069700C44BE0 /* JMScanningQRCodeVC.h */,
+				E060764421B9069700C44BE0 /* JMScanningQRCodeVC.m */,
+				E060764721B9069700C44BE0 /* JMScanningResultVC.h */,
+				E060764821B9069800C44BE0 /* JMScanningResultVC.m */,
+				E060760721B7A96B00C44BE0 /* JDQRCodeHeader.pch */,
+				E06075E821B79CF000C44BE0 /* Assets.xcassets */,
+				E06075ED21B79CF000C44BE0 /* Info.plist */,
+				E06075EE21B79CF000C44BE0 /* main.m */,
+				E0F55BF921BF889300E7B9B2 /* 杭州印.gpx */,
+				E0F55BFA21BF88DB00E7B9B2 /* 苏苏.gpx */,
+			);
+			path = JDQRCode;
+			sourceTree = "<group>";
+		};
+		E06075F521B79DE500C44BE0 /* JMQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				E06075F621B79DE500C44BE0 /* JMQRCode.h */,
+				E06075F721B79DE500C44BE0 /* JMScanningQRCodeUtils.h */,
+				E06075F821B79DE500C44BE0 /* JMGenerateQRCodeUtils.m */,
+				E06075F921B79DE500C44BE0 /* JMScanningQRCodeView.m */,
+				E06075FA21B79DE500C44BE0 /* JMScanningQRCodeUtils.m */,
+				E06075FB21B79DE500C44BE0 /* JMScanningQRCodeView.h */,
+				E06075FC21B79DE500C44BE0 /* JMGenerateQRCodeUtils.h */,
+			);
+			path = JMQRCode;
+			sourceTree = "<group>";
+		};
+		E060763721B8FB3C00C44BE0 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E060764121B8FB8400C44BE0 /* MBProgressHUD.bundle */,
+				E060763F21B8FB8400C44BE0 /* MBProgressHUD+Extension.h */,
+				E060764021B8FB8400C44BE0 /* MBProgressHUD+Extension.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06075DB21B79CF000C44BE0 /* JDQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06075F221B79CF000C44BE0 /* Build configuration list for PBXNativeTarget "JDQRCode" */;
+			buildPhases = (
+				D58A48174D87A5216868BD6F /* [CP] Check Pods Manifest.lock */,
+				E06075D821B79CF000C44BE0 /* Sources */,
+				E06075D921B79CF000C44BE0 /* Frameworks */,
+				E06075DA21B79CF000C44BE0 /* Resources */,
+				D8CF46C644E6B195F2A1A23D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDQRCode;
+			productName = JDQRCode;
+			productReference = E06075DC21B79CF000C44BE0 /* JDQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06075D421B79CF000C44BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jd;
+				TargetAttributes = {
+					E06075DB21B79CF000C44BE0 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E06075D721B79CF000C44BE0 /* Build configuration list for PBXProject "JDQRCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06075D321B79CF000C44BE0;
+			productRefGroup = E06075DD21B79CF000C44BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06075DB21B79CF000C44BE0 /* JDQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06075DA21B79CF000C44BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E060764321B8FB8400C44BE0 /* MBProgressHUD.bundle in Resources */,
+				E060760C21B7AB8D00C44BE0 /* HomeController.xib in Resources */,
+				E060761421B7B13700C44BE0 /* EditeQRCodeController.xib in Resources */,
+				E060761921B7B4B200C44BE0 /* LookOrSaveController.xib in Resources */,
+				E060762121B7D54700C44BE0 /* MyController.xib in Resources */,
+				E06075E921B79CF000C44BE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D58A48174D87A5216868BD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDQRCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CF46C644E6B195F2A1A23D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06075D821B79CF000C44BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06075E421B79CF000C44BE0 /* ViewController.m in Sources */,
+				E060763321B8F18B00C44BE0 /* UIImage+streth.m in Sources */,
+				E06075FF21B79DE500C44BE0 /* JMScanningQRCodeUtils.m in Sources */,
+				E060761821B7B4B200C44BE0 /* LookOrSaveController.m in Sources */,
+				E060761321B7B13700C44BE0 /* EditeQRCodeController.m in Sources */,
+				E060763021B8F09F00C44BE0 /* MainNavController.m in Sources */,
+				E060760F21B7AD2300C44BE0 /* HomeCell.m in Sources */,
+				E06075EF21B79CF000C44BE0 /* main.m in Sources */,
+				E06075FE21B79DE500C44BE0 /* JMScanningQRCodeView.m in Sources */,
+				E060760521B7A0F800C44BE0 /* JDCommonNavBar.m in Sources */,
+				E060764C21B9069800C44BE0 /* JMQRCodeLoadView.m in Sources */,
+				E06075E121B79CF000C44BE0 /* AppDelegate.m in Sources */,
+				E060764B21B9069800C44BE0 /* JMScanningResultVC.m in Sources */,
+				E060760421B7A0F800C44BE0 /* BaseUIViewController.m in Sources */,
+				E060764A21B9069800C44BE0 /* JMScanningQRCodeVC.m in Sources */,
+				E060761C21B7B70D00C44BE0 /* NSString+LWTool.m in Sources */,
+				E060763621B8F6CF00C44BE0 /* UserUtil.m in Sources */,
+				E060762021B7D54700C44BE0 /* MyController.m in Sources */,
+				E060764221B8FB8400C44BE0 /* MBProgressHUD+Extension.m in Sources */,
+				E060760B21B7AB8D00C44BE0 /* HomeController.m in Sources */,
+				E06075FD21B79DE500C44BE0 /* JMGenerateQRCodeUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E06075F021B79CF000C44BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E06075F121B79CF000C44BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06075F321B79CF000C44BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7F1C9F9607A6E2AC43DB60 /* Pods-JDQRCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9529665QJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDQRCode/JDQRCodeHeader.pch";
+				INFOPLIST_FILE = JDQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JD.JDQRCode.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E06075F421B79CF000C44BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDD00ADFA3F985255AFF456 /* Pods-JDQRCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9529665QJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDQRCode/JDQRCodeHeader.pch";
+				INFOPLIST_FILE = JDQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JD.JDQRCode.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06075D721B79CF000C44BE0 /* Build configuration list for PBXProject "JDQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06075F021B79CF000C44BE0 /* Debug */,
+				E06075F121B79CF000C44BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06075F221B79CF000C44BE0 /* Build configuration list for PBXNativeTarget "JDQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06075F321B79CF000C44BE0 /* Debug */,
+				E06075F421B79CF000C44BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E06075D421B79CF000C44BE0 /* Project object */;
+}
