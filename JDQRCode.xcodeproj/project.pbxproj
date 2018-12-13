@@ -91,8 +91,6 @@
 		E060764721B9069700C44BE0 /* JMScanningResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScanningResultVC.h; sourceTree = "<group>"; };
 		E060764821B9069800C44BE0 /* JMScanningResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScanningResultVC.m; sourceTree = "<group>"; };
 		E060764921B9069800C44BE0 /* JMQRCodeLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQRCodeLoadView.m; sourceTree = "<group>"; };
-		E0F55BF921BF889300E7B9B2 /* 杭州印.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "杭州印.gpx"; sourceTree = "<group>"; };
-		E0F55BFA21BF88DB00E7B9B2 /* 苏苏.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "苏苏.gpx"; sourceTree = "<group>"; };
 		EFDD00ADFA3F985255AFF456 /* Pods-JDQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDQRCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDQRCode/Pods-JDQRCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,8 +186,6 @@
 				E06075E821B79CF000C44BE0 /* Assets.xcassets */,
 				E06075ED21B79CF000C44BE0 /* Info.plist */,
 				E06075EE21B79CF000C44BE0 /* main.m */,
-				E0F55BF921BF889300E7B9B2 /* 杭州印.gpx */,
-				E0F55BFA21BF88DB00E7B9B2 /* 苏苏.gpx */,
 			);
 			path = JDQRCode;
 			sourceTree = "<group>";
